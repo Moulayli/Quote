@@ -1,0 +1,53 @@
+#citation{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: black;
+    font-size: 25px;
+    z-index: 1px;
+    animation-name:text;
+    animation-duration: 4s;
+
+}
+@keyframes text { from { filter: blur(90px); } to { filter: none; }  }
+
+#date{
+    padding-left: 70%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: black;
+    font-size: 20px;
+    z-index: 1px;
+    animation-name:text;
+    animation-duration: 4s;
+}
+#recharche{
+    padding-left: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: black;
+    font-size: 20px;
+    z-index: 1px;
+    animation-name:text;
+    animation-duration: 4s;
+}
+svg{
+    cursor: pointer;
+}
+blockquote{
+    padding: 10px 5px;
+    background-color: rgba(255, 255, 255, 0.597);
+    border-radius: 10px;
+    box-shadow: 5px 3px 30px black; 
+    z-index: 99;
+    animation-name:fond;
+    animation-duration: 3s;
+}
+@keyframes fond { 
+    from { box-shadow:none;
+            margin:25%;
+
+
+     } 
+    to { box-shadow: 5px 3px 30px black;
+        margin:none;
+    }  }

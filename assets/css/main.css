@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: black;
+    /*filter: blur(2px);*/
+
+}
+.container-fluid{
+    background: url("https://lh4.googleusercontent.com/proxy/FNDp46btJNDdFy5VuvnEusJOoR6oEjuF1nsl4wrW-tVgVPjMovemdIsR5_cOxgIjBY3fivsEDB50y6uYiiAZOFAAZNe7V9Zfr9g=s0-d") no-repeat fixed;
+    background-size: cover;
+    min-height:100vh;
+    padding: 25%;
+}
